@@ -1,10 +1,10 @@
 {
-  "name": "rcon.ts",
+  "name": "@c43721/ts-rcon",
   "version": "2.0.1",
   "description": "A modern and dependency-free Typescript library for the RCON Protocol",
   "main": "dist/rcon.js",
   "scripts": {
-    "lint": "eslint . --ext .ts",
+    "lint": "eslint . --ext .ts --ignore-pattern \"*.d.ts\"",
     "build": "tsc",
     "prepare": "npm run build",
     "prepublishOnly": "npm run lint",
@@ -16,7 +16,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/EnriqCG/rcon-srcds.git"
+    "url": "git+https://github.com/rcontf/rcon.ts"
   },
   "keywords": [
     "rcon",
@@ -36,9 +36,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/EnriqCG/rcon-srcds/issues"
+    "url": "https://github.com/rcontf/rcon.ts/issues"
   },
-  "homepage": "https://github.com/EnriqCG/rcon-srcds",
+  "homepage": "https://github.com/rcontf/rcon.ts",
   "devDependencies": {
     "@types/node": "^13.13.4",
     "@typescript-eslint/eslint-plugin": "^2.30.0",

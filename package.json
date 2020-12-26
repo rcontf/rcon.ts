@@ -1,6 +1,6 @@
 {
   "name": "@c43721/ts-rcon",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "A modern and dependency-free Typescript library for the RCON Protocol",
   "main": "dist/rcon.js",
   "scripts": {

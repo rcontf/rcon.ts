@@ -1,0 +1,49 @@
+{
+  "name": "rcon.ts",
+  "version": "2.0.1",
+  "description": "A modern and dependency-free Typescript library for the RCON Protocol",
+  "main": "dist/rcon.js",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "build": "tsc",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src"
+  },
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EnriqCG/rcon-srcds.git"
+  },
+  "keywords": [
+    "rcon",
+    "client",
+    "rcon protocol",
+    "csgo",
+    "source",
+    "minecraft",
+    "typescript",
+    "promise",
+    "async"
+  ],
+  "author": "c43721 <24@elo.associates>",
+  "contributors": [
+    "Markus Adrario (https://github.com/Taraman17)",
+    "Enrique Carpintero (https://github.com/EnriqCG)"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EnriqCG/rcon-srcds/issues"
+  },
+  "homepage": "https://github.com/EnriqCG/rcon-srcds",
+  "devDependencies": {
+    "@types/node": "^13.13.4",
+    "@typescript-eslint/eslint-plugin": "^2.30.0",
+    "@typescript-eslint/parser": "^2.30.0",
+    "eslint": "^6.8.0",
+    "typescript": "^3.8.3"
+  }
+}

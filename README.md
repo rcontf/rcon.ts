@@ -1,3 +1,7 @@
+# Disclaimer
+This repo is discontinued due to the original [rcon-srcds](https://github.com/EnriqCG/rcon-srcds) becoming active again. Any issues or PR should be directed to that repo instead of this repo.
+
+
 # RCON library for NodeJS
 [According to Valve's RCON specification](https://developer.valvesoftware.com/wiki/Source_RCON_Protocol)
 
